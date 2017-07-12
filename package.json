@@ -1,0 +1,15 @@
+{
+  "name": "node-csgo-items-parser",
+  "version": "1.0.0",
+  "description": "NodeJS CSGO Items dumper",
+  "main": "index.js",
+  "dependencies": {
+    "simple-vdf": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vankxr",
+  "license": "MIT"
+}
