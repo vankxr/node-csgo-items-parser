@@ -5,6 +5,7 @@ var items_game = vdf.parse(require("fs").readFileSync("./data/items_game.txt", "
 var csgo_english = vdf.parse(require("fs").readFileSync("./data/csgo_english.txt", "utf16le"));
 csgo_english = csgo_english[Object.keys(csgo_english)]; // Fuck UTF-16 Little Endian
 
+var weapon_indexes = {};
 var weapon_classes = [
 	"weapon_deagle",
 	"weapon_elite",
@@ -57,14 +58,14 @@ var weapon_classes = [
 	"weapon_knife_push",
 	"weapon_knife_default_ct",
 	"weapon_knife_t",
-	"weapon_studded_bloodhound_gloves",
-	"weapon_t_gloves",
-	"weapon_ct_gloves",
-	"weapon_sporty_gloves",
-	"weapon_slick_gloves",
-	"weapon_leather_handwraps",
-	"weapon_motorcycle_gloves",
-	"weapon_specialist_gloves"
+	"studded_bloodhound_gloves",
+	"ct_gloves",
+	"sporty_gloves",
+	"slick_gloves",
+	"leather_handwraps",
+	"motorcycle_gloves",
+	"specialist_gloves",
+	"t_gloves"
 ];
 var out = {
 	paintkit_names: {},
@@ -72,6 +73,12 @@ var out = {
 	weapon_skins: {}
 };
 
+var item_indexes = Object.keys(items_game.items);
+for(var i = 0; i < item_indexes.length; i++) {
+	if(!items_game.items[item_indexes[i]].name) continue;
+	
+	weapon_indexes[items_game.items[item_indexes[i]].name] = parseInt(item_indexes[i]);
+}
 
 var paintkit_ids = Object.keys(items_game.paint_kits);
 for(var i = 0; i < paintkit_ids.length; i++) {
@@ -103,15 +110,15 @@ for(var i = 0; i < model_ids.length; i++) {
 		var weapon_name = weapon_classes[j];
 		var skin_name = weapon_skin_name.replace(weapon_classes[j] + "_", "");
 		
-		out.weapon_skins[weapon_name] = out.weapon_skins[weapon_name] ? out.weapon_skins[weapon_name] : [];
+		out.weapon_skins[weapon_indexes[weapon_name]] = out.weapon_skins[weapon_indexes[weapon_name]] ? out.weapon_skins[weapon_indexes[weapon_name]] : [];
 		
-		if(out.weapon_skins[weapon_name].indexOf(skin_name) == -1) {
+		if(out.weapon_skins[weapon_indexes[weapon_name]].indexOf(skin_name) == -1) {
 			if(!out.paintkit_names[skin_name]) {
 				console.log("Weapon '" + weapon_name + "' has skin '" + skin_name + "' but it was not found!");
 				console.log(weapon_skin_name);
 			}
 			
-			out.weapon_skins[weapon_name].push(skin_name);
+			out.weapon_skins[weapon_indexes[weapon_name]].push(skin_name);
 		}
 		
 		break;
