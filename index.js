@@ -69,6 +69,7 @@ var weapon_classes = [
 ];
 var out = {
 	paintkit_names: {},
+	paintkit_rarities: {},
 	paintkit_ids: {},
 	weapon_skins: {}
 };
@@ -124,6 +125,8 @@ for(var i = 0; i < model_ids.length; i++) {
 		break;
 	}
 }
+
+out.paintkit_rarities = items_game.paint_kits_rarity;
 
 require("fs").writeFileSync("skins.json", JSON.stringify(out, null, "\t"));
 console.log("Time elapsed: " + (Date.now() - start) + " ms");
