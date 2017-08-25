@@ -71,6 +71,9 @@ var out = {
 	paintkit_names: {},
 	paintkit_rarities: {},
 	paintkit_ids: {},
+	stickerkit_names: {},
+	stickerkit_ids: {},
+	stickerkits: [],
 	weapon_skins: {}
 };
 
@@ -93,6 +96,21 @@ for(var i = 0; i < paintkit_ids.length; i++) {
 	
 	out.paintkit_ids[skin_name] = parseInt(paintkit_id);
 	out.paintkit_names[skin_name] = skin_lang_name;
+}
+
+var stickerkit_ids = Object.keys(items_game.sticker_kits);
+for(var i = 0; i < stickerkit_ids.length; i++) {
+	if(!items_game.sticker_kits[stickerkit_ids[i]].item_name) continue;
+	
+	var stickerkit_id = stickerkit_ids[i];
+	var sticker_lang_key = items_game.sticker_kits[stickerkit_id].item_name.replace("#", "");
+	var sticker_name = items_game.sticker_kits[stickerkit_id].name;
+	
+	var skin_lang_name = csgo_english.Tokens[sticker_lang_key];
+	
+	out.stickerkits.push(sticker_name);
+	out.stickerkit_ids[sticker_name] = parseInt(stickerkit_id);
+	out.stickerkit_names[sticker_name] = skin_lang_name;
 }
 
 var model_ids = Object.keys(items_game.alternate_icons2.weapon_icons);
