@@ -67,9 +67,9 @@ var weapon_classes = [
 	"specialist_gloves",
 	"t_gloves"
 ];
+var item_rarities = ["default", "common", "uncommon", "rare", "mythical", "legendary", "ancient", "immortal", "unusual"];
 var out = {
 	paintkit_names: {},
-	paintkit_rarities: {},
 	paintkit_ids: {},
 	stickerkit_names: {},
 	stickerkit_ids: {},
@@ -117,7 +117,7 @@ var model_ids = Object.keys(items_game.alternate_icons2.weapon_icons);
 for(var i = 0; i < model_ids.length; i++) {
 	if(!items_game.alternate_icons2.weapon_icons[model_ids[i]].icon_path) continue;
 	
-	var weapon_skin_name = items_game.alternate_icons2.weapon_icons[model_ids[i]].icon_path.split("/")[2]
+	var weapon_skin_name = items_game.alternate_icons2.weapon_icons[model_ids[i]].icon_path.split("/")[2];
 	
 	if(weapon_skin_name.substr(-6, 6) == "_heavy") weapon_skin_name = weapon_skin_name.substr(0, weapon_skin_name.length - 6);
 	if(weapon_skin_name.substr(-6, 6) == "_light") weapon_skin_name = weapon_skin_name.substr(0, weapon_skin_name.length - 6); // Cant use replace cuz volvo sux "weapon_awp_am <_light> ning_awp <_light>" <<
@@ -127,24 +127,69 @@ for(var i = 0; i < model_ids.length; i++) {
 		if(weapon_skin_name.indexOf(weapon_classes[j]) == -1) continue;
 		
 		var weapon_name = weapon_classes[j];
-		var skin_name = weapon_skin_name.replace(weapon_classes[j] + "_", "");
+		var skin_name = weapon_skin_name.replace(weapon_name + "_", "");
 		
-		out.weapon_skins[weapon_indexes[weapon_name]] = out.weapon_skins[weapon_indexes[weapon_name]] ? out.weapon_skins[weapon_indexes[weapon_name]] : [];
-		
-		if(out.weapon_skins[weapon_indexes[weapon_name]].indexOf(skin_name) == -1) {
+		out.weapon_skins[weapon_indexes[weapon_name]] = out.weapon_skins[weapon_indexes[weapon_name]] ? out.weapon_skins[weapon_indexes[weapon_name]] : {paintkit_names: [], paintkit_rarities: []};
+
+		if(out.weapon_skins[weapon_indexes[weapon_name]].paintkit_names.indexOf(skin_name) == -1) {
 			if(!out.paintkit_names[skin_name]) {
 				console.log("Weapon '" + weapon_name + "' has skin '" + skin_name + "' but it was not found!");
 				console.log(weapon_skin_name);
 			}
-			
-			out.weapon_skins[weapon_indexes[weapon_name]].push(skin_name);
+
+			out.weapon_skins[weapon_indexes[weapon_name]].paintkit_names.push(skin_name);
+			out.weapon_skins[weapon_indexes[weapon_name]].paintkit_rarities.push(item_rarities.indexOf(items_game.paint_kits_rarity[skin_name]));
 		}
 		
 		break;
 	}
 }
 
-out.paintkit_rarities = items_game.paint_kits_rarity;
+var loot_lists = Object.keys(items_game.client_loot_lists);			
+for(var i = 0; i < loot_lists.length; i++) {
+	var list_name = loot_lists[i];
+	var list_name_parts = list_name.split("_");
+	var rarity = item_rarities.indexOf(list_name_parts[list_name_parts.length - 1]);
+
+	if(rarity == -1)
+		continue;
+
+	var list_paintkits = Object.keys(items_game.client_loot_lists[list_name]);
+	for(var j = 0; j < list_paintkits.length; j++) {
+		var paintkit_parts = list_paintkits[j].replace("[", "").split("]");
+
+		if(paintkit_parts.length != 2)
+			continue;
+
+		var paintkit_name = paintkit_parts[0];
+		var weapon_name = paintkit_parts[1];
+
+		if(!weapon_indexes[weapon_name] || !out.weapon_skins[weapon_indexes[weapon_name]])
+			continue;
+
+		for(var k = 0; k < out.weapon_skins[weapon_indexes[weapon_name]].paintkit_names.length; k++) {
+			if(out.weapon_skins[weapon_indexes[weapon_name]].paintkit_names[k] == paintkit_name) {
+				out.weapon_skins[weapon_indexes[weapon_name]].paintkit_rarities[k] = rarity;
+
+				break;
+			}
+		}
+	}
+}
+
+for(var i = 0; i < weapon_classes.length; i++) {
+	if(i >= weapon_classes.indexOf("weapon_bayonet"))
+		break;
+
+	if(!weapon_indexes[weapon_classes[i]] || !out.weapon_skins[weapon_indexes[weapon_classes[i]]])
+		continue;
+
+	if(out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_names.length > out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_rarities.length)
+		console.log((out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_names.length - out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_rarities.length) + " paintkits for weapon '" + weapon_classes[i] + "' do not have a rarity!");
+	else if(out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_names.length < out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_rarities.length)
+		console.log((out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_rarities.length - out.weapon_skins[weapon_indexes[weapon_classes[i]]].paintkit_names.length) + " paintkits for weapon '" + weapon_classes[i] + "' do not have a name, but have a rarity!");
+
+}
 
 require("fs").writeFileSync("skins.json", JSON.stringify(out, null, "\t"));
 console.log("Time elapsed: " + (Date.now() - start) + " ms");
