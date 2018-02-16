@@ -65,6 +65,7 @@ var weapon_classes = [
 	"leather_handwraps",
 	"motorcycle_gloves",
 	"specialist_gloves",
+	"studded_hydra_gloves",
 	"t_gloves"
 ];
 var item_rarities = ["default", "common", "uncommon", "rare", "mythical", "legendary", "ancient", "immortal", "unusual"];
@@ -80,20 +81,20 @@ var out = {
 var item_indexes = Object.keys(items_game.items);
 for(var i = 0; i < item_indexes.length; i++) {
 	if(!items_game.items[item_indexes[i]].name) continue;
-	
+
 	weapon_indexes[items_game.items[item_indexes[i]].name] = parseInt(item_indexes[i]);
 }
 
 var paintkit_ids = Object.keys(items_game.paint_kits);
 for(var i = 0; i < paintkit_ids.length; i++) {
 	if(!items_game.paint_kits[paintkit_ids[i]].description_tag) continue;
-	
+
 	var paintkit_id = paintkit_ids[i];
 	var skin_lang_key = items_game.paint_kits[paintkit_id].description_tag.replace("#", "");
 	var skin_name = items_game.paint_kits[paintkit_id].name;
-	
+
 	var skin_lang_name = csgo_english.Tokens[skin_lang_key] ? csgo_english.Tokens[skin_lang_key] : csgo_english.Tokens[skin_lang_key.replace("PaintKit_", "Paintkit_")];
-	
+
 	out.paintkit_ids[skin_name] = parseInt(paintkit_id);
 	out.paintkit_names[skin_name] = skin_lang_name;
 }
@@ -101,13 +102,13 @@ for(var i = 0; i < paintkit_ids.length; i++) {
 var stickerkit_ids = Object.keys(items_game.sticker_kits);
 for(var i = 0; i < stickerkit_ids.length; i++) {
 	if(!items_game.sticker_kits[stickerkit_ids[i]].item_name) continue;
-	
+
 	var stickerkit_id = stickerkit_ids[i];
 	var sticker_lang_key = items_game.sticker_kits[stickerkit_id].item_name.replace("#", "");
 	var sticker_name = items_game.sticker_kits[stickerkit_id].name;
-	
+
 	var skin_lang_name = csgo_english.Tokens[sticker_lang_key];
-	
+
 	out.stickerkits.push(sticker_name);
 	out.stickerkit_ids[sticker_name] = parseInt(stickerkit_id);
 	out.stickerkit_names[sticker_name] = skin_lang_name;
@@ -116,19 +117,19 @@ for(var i = 0; i < stickerkit_ids.length; i++) {
 var model_ids = Object.keys(items_game.alternate_icons2.weapon_icons);
 for(var i = 0; i < model_ids.length; i++) {
 	if(!items_game.alternate_icons2.weapon_icons[model_ids[i]].icon_path) continue;
-	
+
 	var weapon_skin_name = items_game.alternate_icons2.weapon_icons[model_ids[i]].icon_path.split("/")[2];
-	
+
 	if(weapon_skin_name.substr(-6, 6) == "_heavy") weapon_skin_name = weapon_skin_name.substr(0, weapon_skin_name.length - 6);
 	if(weapon_skin_name.substr(-6, 6) == "_light") weapon_skin_name = weapon_skin_name.substr(0, weapon_skin_name.length - 6); // Cant use replace cuz volvo sux "weapon_awp_am <_light> ning_awp <_light>" <<
 	if(weapon_skin_name.substr(-7, 7) == "_medium") weapon_skin_name = weapon_skin_name.substr(0, weapon_skin_name.length - 7);
-	
+
 	for(var j = 0; j < weapon_classes.length; j++) {
 		if(weapon_skin_name.indexOf(weapon_classes[j]) == -1) continue;
-		
+
 		var weapon_name = weapon_classes[j];
 		var skin_name = weapon_skin_name.replace(weapon_name + "_", "");
-		
+
 		out.weapon_skins[weapon_indexes[weapon_name]] = out.weapon_skins[weapon_indexes[weapon_name]] ? out.weapon_skins[weapon_indexes[weapon_name]] : {paintkit_names: [], paintkit_rarities: []};
 
 		if(out.weapon_skins[weapon_indexes[weapon_name]].paintkit_names.indexOf(skin_name) == -1) {
@@ -140,12 +141,12 @@ for(var i = 0; i < model_ids.length; i++) {
 			out.weapon_skins[weapon_indexes[weapon_name]].paintkit_names.push(skin_name);
 			out.weapon_skins[weapon_indexes[weapon_name]].paintkit_rarities.push(item_rarities.indexOf(items_game.paint_kits_rarity[skin_name]));
 		}
-		
+
 		break;
 	}
 }
 
-var loot_lists = Object.keys(items_game.client_loot_lists);			
+var loot_lists = Object.keys(items_game.client_loot_lists);
 for(var i = 0; i < loot_lists.length; i++) {
 	var list_name = loot_lists[i];
 	var list_name_parts = list_name.split("_");
