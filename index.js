@@ -20,6 +20,7 @@ var weapon_classes = [
 	"weapon_mp7",
 	"weapon_mp9",
 	"weapon_p90",
+	"weapon_mp5sd",
 	"weapon_ump45",
 	"weapon_ak47",
 	"weapon_aug",
@@ -75,7 +76,9 @@ var out = {
 	stickerkit_names: {},
 	stickerkit_ids: {},
 	stickerkits: [],
-	weapon_skins: {}
+	weapon_skins: {},
+	medal_names: {},
+	medals: []
 };
 
 var item_indexes = Object.keys(items_game.items);
@@ -83,6 +86,17 @@ for(var i = 0; i < item_indexes.length; i++) {
 	if(!items_game.items[item_indexes[i]].name) continue;
 
 	weapon_indexes[items_game.items[item_indexes[i]].name] = parseInt(item_indexes[i]);
+
+	if(!items_game.items[item_indexes[i]].item_name) continue;
+
+	if(items_game.items[item_indexes[i]].item_name.indexOf("#CSGO_Collectible") != -1)
+	{
+		var medal_lang_key = items_game.items[item_indexes[i]].item_name.replace("#", "");
+		var medal_lang_name = csgo_english.Tokens[medal_lang_key];
+
+		out.medals.push(parseInt(item_indexes[i]));
+		out.medal_names[item_indexes[i]] = medal_lang_name;
+	}
 }
 
 var paintkit_ids = Object.keys(items_game.paint_kits);
