@@ -674,6 +674,24 @@
 		"aa_vertigo_red": "Brake Light",
 		"so_orange_accents3": "Nitro",
 		"aa_vertigo_blue": "High Beam",
+		"hy_labrat_mp5": "Lab Rats",
+		"cu_ak47_asiimov": "Asiimov",
+		"cu_ump_arrows": "Momentum",
+		"cu_awp_neonoir": "Neo-Noir",
+		"gs_mp9_colony01": "Modest Threat",
+		"gs_deagle_mecha": "Mecha Industries",
+		"gs_g3sg1_savage": "Scavenger",
+		"hy_galil_signal_red": "Signal",
+		"cu_glock18_corroden": "Oxide Blaze",
+		"gs_nova_hunter_brute": "Wood Fired",
+		"gs_mp5_festival_drip": "Phosphor",
+		"gs_m4a4_chopper_ghost": "Magnesium",
+		"gs_mac10_exo_pipes": "Pipe Down",
+		"aa_p250_gravediggers": "Nevermore",
+		"cu_sawedoff_black_sand": "Black Sand",
+		"gs_sg553_over_heated": "Danger Close",
+		"gs_tec9_fubar": "Fubar",
+		"cu_usp_flashback": "Flashback",
 		"bloodhound_black_silver": "Charred",
 		"bloodhound_snakeskin_brass": "Snakebite",
 		"bloodhound_metallic": "Bronzed",
@@ -1398,6 +1416,24 @@
 		"aa_vertigo_red": 797,
 		"so_orange_accents3": 798,
 		"aa_vertigo_blue": 799,
+		"hy_labrat_mp5": 800,
+		"cu_ak47_asiimov": 801,
+		"cu_ump_arrows": 802,
+		"cu_awp_neonoir": 803,
+		"gs_mp9_colony01": 804,
+		"gs_deagle_mecha": 805,
+		"gs_g3sg1_savage": 806,
+		"hy_galil_signal_red": 807,
+		"cu_glock18_corroden": 808,
+		"gs_nova_hunter_brute": 809,
+		"gs_mp5_festival_drip": 810,
+		"gs_m4a4_chopper_ghost": 811,
+		"gs_mac10_exo_pipes": 812,
+		"aa_p250_gravediggers": 813,
+		"cu_sawedoff_black_sand": 814,
+		"gs_sg553_over_heated": 815,
+		"gs_tec9_fubar": 816,
+		"cu_usp_flashback": 817,
 		"bloodhound_black_silver": 10006,
 		"bloodhound_snakeskin_brass": 10007,
 		"bloodhound_metallic": 10008,
@@ -1476,6 +1512,7 @@
 		"std_vigilance_holo": "Vigilance (Holo)",
 		"std_thirteen_foil": "Lucky 13 (Foil)",
 		"std_luck_foil": "Luck Skill (Foil)",
+		"dz_blacksite_foil": "Blacksite (Foil)",
 		"std2_bish_holo": "Bish (Holo)",
 		"std2_bash_holo": "Bash (Holo)",
 		"std2_bosh_holo": "Bosh (Holo)",
@@ -4864,7 +4901,25 @@
 		"london2018_signature_dd_gold": "DD (Gold) | London 2018",
 		"london2018_signature_xccurate": "xccurate | London 2018",
 		"london2018_signature_xccurate_foil": "xccurate (Foil) | London 2018",
-		"london2018_signature_xccurate_gold": "xccurate (Gold) | London 2018"
+		"london2018_signature_xccurate_gold": "xccurate (Gold) | London 2018",
+		"skillgroup_silver": "Silver",
+		"skillgroup_silver_normal": "Silver (Foil)",
+		"skillgroup_gold_nova": "Gold Nova",
+		"skillgroup_gold_nova_holo": "Gold Nova (Holo)",
+		"skillgroup_master_guardian": "Master Guardian",
+		"skillgroup_master_guardian_holo": "Master Guardian (Holo)",
+		"skillgroup_mge": "Master Guardian Elite",
+		"skillgroup_mge_holo": "Master Guardian Elite (Holo)",
+		"skillgroup_dmg": "Distinguished Master Guardian",
+		"skillgroup_dmg_holo": "Distinguished Master Guardian (Holo)",
+		"skillgroup_legendary_eagle": "Legendary Eagle",
+		"skillgroup_legendary_eagle_holo": "Legendary Eagle (Holo)",
+		"skillgroup_lem": "Legendary Eagle Master",
+		"skillgroup_lem_holo": "Legendary Eagle Master (Holo)",
+		"skillgroup_smfc": "Supreme Master First Class",
+		"skillgroup_smfc_holo": "Supreme Master First Class (Holo)",
+		"skillgroup_global_elite": "Global Elite",
+		"skillgroup_global_elite_normal": "Global Elite (Foil)"
 	},
 	"stickerkit_ids": {
 		"default": 0,
@@ -4895,6 +4950,7 @@
 		"std_vigilance_holo": 25,
 		"std_thirteen_foil": 26,
 		"std_luck_foil": 27,
+		"dz_blacksite_foil": 28,
 		"std2_bish_holo": 31,
 		"std2_bash_holo": 32,
 		"std2_bosh_holo": 33,
@@ -8284,7 +8340,25 @@
 		"london2018_signature_dd_gold": 3436,
 		"london2018_signature_xccurate": 3437,
 		"london2018_signature_xccurate_foil": 3438,
-		"london2018_signature_xccurate_gold": 3439
+		"london2018_signature_xccurate_gold": 3439,
+		"skillgroup_silver": 3440,
+		"skillgroup_silver_normal": 3441,
+		"skillgroup_gold_nova": 3442,
+		"skillgroup_gold_nova_holo": 3443,
+		"skillgroup_master_guardian": 3444,
+		"skillgroup_master_guardian_holo": 3445,
+		"skillgroup_mge": 3446,
+		"skillgroup_mge_holo": 3447,
+		"skillgroup_dmg": 3448,
+		"skillgroup_dmg_holo": 3449,
+		"skillgroup_legendary_eagle": 3450,
+		"skillgroup_legendary_eagle_holo": 3451,
+		"skillgroup_lem": 3452,
+		"skillgroup_lem_holo": 3453,
+		"skillgroup_smfc": 3454,
+		"skillgroup_smfc_holo": 3455,
+		"skillgroup_global_elite": 3456,
+		"skillgroup_global_elite_normal": 3457
 	},
 	"stickerkits": [
 		"default",
@@ -8315,6 +8389,7 @@
 		"std_vigilance_holo",
 		"std_thirteen_foil",
 		"std_luck_foil",
+		"dz_blacksite_foil",
 		"std2_bish_holo",
 		"std2_bash_holo",
 		"std2_bosh_holo",
@@ -11704,7 +11779,25 @@
 		"london2018_signature_dd_gold",
 		"london2018_signature_xccurate",
 		"london2018_signature_xccurate_foil",
-		"london2018_signature_xccurate_gold"
+		"london2018_signature_xccurate_gold",
+		"skillgroup_silver",
+		"skillgroup_silver_normal",
+		"skillgroup_gold_nova",
+		"skillgroup_gold_nova_holo",
+		"skillgroup_master_guardian",
+		"skillgroup_master_guardian_holo",
+		"skillgroup_mge",
+		"skillgroup_mge_holo",
+		"skillgroup_dmg",
+		"skillgroup_dmg_holo",
+		"skillgroup_legendary_eagle",
+		"skillgroup_legendary_eagle_holo",
+		"skillgroup_lem",
+		"skillgroup_lem_holo",
+		"skillgroup_smfc",
+		"skillgroup_smfc_holo",
+		"skillgroup_global_elite",
+		"skillgroup_global_elite_normal"
 	],
 	"weapon_skins": {
 		"1": {
@@ -11732,7 +11825,8 @@
 				"aq_deserteagle_kumichodragon",
 				"aq_desert_eagle_constable",
 				"cu_desert_eagle_corroden",
-				"gs_deagle_aggressor"
+				"gs_deagle_aggressor",
+				"gs_deagle_mecha"
 			],
 			"paintkit_rarities": [
 				2,
@@ -11758,7 +11852,8 @@
 				5,
 				4,
 				3,
-				6
+				6,
+				5
 			]
 		},
 		"2": {
@@ -11894,7 +11989,8 @@
 				"aa_glock_18_urban_moon_fever",
 				"gs_glock_thunder_dust",
 				"am_nuclear_skulls_green",
-				"aa_vertigo_blue"
+				"aa_vertigo_blue",
+				"cu_glock18_corroden"
 			],
 			"paintkit_rarities": [
 				2,
@@ -11922,7 +12018,8 @@
 				4,
 				3,
 				4,
-				2
+				2,
+				3
 			]
 		},
 		"7": {
@@ -11954,7 +12051,8 @@
 				"gs_ak_colony01_red",
 				"gs_ak47_empress",
 				"cu_ak_neon_rider",
-				"hy_mesh_safetyorange"
+				"hy_mesh_safetyorange",
+				"cu_ak47_asiimov"
 			],
 			"paintkit_rarities": [
 				5,
@@ -11984,7 +12082,8 @@
 				4,
 				6,
 				6,
-				4
+				4,
+				6
 			]
 		},
 		"8": {
@@ -12064,7 +12163,8 @@
 				"cu_awp_hannya",
 				"gs_awp_death",
 				"am_awp_pawpaw",
-				"hy_nuclear_skulls_redblue"
+				"hy_nuclear_skulls_redblue",
+				"cu_awp_neonoir"
 			],
 			"paintkit_rarities": [
 				3,
@@ -12090,7 +12190,8 @@
 				6,
 				5,
 				4,
-				3
+				3,
+				6
 			]
 		},
 		"10": {
@@ -12158,7 +12259,8 @@
 				"gs_g3sg1_ventilator",
 				"gs_g3sg1_viper_yellow",
 				"gs_g3sg1_cetme_redux",
-				"gs_g3sg1_buccaneer"
+				"gs_g3sg1_buccaneer",
+				"gs_g3sg1_savage"
 			],
 			"paintkit_rarities": [
 				2,
@@ -12180,6 +12282,7 @@
 				3,
 				4,
 				3,
+				4,
 				4
 			]
 		},
@@ -12206,7 +12309,8 @@
 				"cu_galil_ar-camo",
 				"sp_galil_wave",
 				"cu_galil_candychaos",
-				"hy_nuclear_skulls_aqua"
+				"hy_nuclear_skulls_aqua",
+				"hy_galil_signal_red"
 			],
 			"paintkit_rarities": [
 				2,
@@ -12230,7 +12334,8 @@
 				3,
 				4,
 				5,
-				2
+				2,
+				4
 			]
 		},
 		"14": {
@@ -12288,7 +12393,8 @@
 				"cu_m4a4_hellfire",
 				"cu_m4a4_neo_noir",
 				"am_circuitboard_silver",
-				"hy_red_hex"
+				"hy_red_hex",
+				"gs_m4a4_chopper_ghost"
 			],
 			"paintkit_rarities": [
 				2,
@@ -12316,6 +12422,7 @@
 				5,
 				6,
 				2,
+				3,
 				3
 			]
 		},
@@ -12344,7 +12451,8 @@
 				"aa_mac10_the_last_dive",
 				"am_mac10_aloha",
 				"am_mac10_oceani",
-				"gs_mac10_checker"
+				"gs_mac10_checker",
+				"gs_mac10_exo_pipes"
 			],
 			"paintkit_rarities": [
 				2,
@@ -12370,7 +12478,8 @@
 				4,
 				3,
 				3,
-				2
+				2,
+				4
 			]
 		},
 		"19": {
@@ -12432,11 +12541,15 @@
 		"23": {
 			"paintkit_names": [
 				"sp_tape_short_rally",
-				"am_circuitboard_aqua"
+				"am_circuitboard_aqua",
+				"hy_labrat_mp5",
+				"gs_mp5_festival_drip"
 			],
 			"paintkit_rarities": [
 				1,
-				3
+				3,
+				4,
+				5
 			]
 		},
 		"24": {
@@ -12463,7 +12576,8 @@
 				"aq_ump45_flameflower",
 				"cu_ump45_x-ray_machine",
 				"cu_ump45_white_fang",
-				"hy_blueprint_bluered"
+				"hy_blueprint_bluered",
+				"cu_ump_arrows"
 			],
 			"paintkit_rarities": [
 				2,
@@ -12488,7 +12602,8 @@
 				3,
 				4,
 				4,
-				1
+				1,
+				5
 			]
 		},
 		"25": {
@@ -12704,7 +12819,8 @@
 				"aq_sawedoff_zander2",
 				"aq_sawed-off_flower",
 				"cu_sawedoff_devourer",
-				"aa_vertigo_red"
+				"aa_vertigo_red",
+				"cu_sawedoff_black_sand"
 			],
 			"paintkit_rarities": [
 				1,
@@ -12730,6 +12846,7 @@
 				3,
 				3,
 				5,
+				3,
 				3
 			]
 		},
@@ -12760,7 +12877,8 @@
 				"aq_tec9_chalk_pattern",
 				"cu_tec9_cracked_opal",
 				"cu_tec9_snake",
-				"gs_tec9_envoy"
+				"gs_tec9_envoy",
+				"gs_tec9_fubar"
 			],
 			"paintkit_rarities": [
 				1,
@@ -12788,7 +12906,8 @@
 				3,
 				3,
 				3,
-				5
+				5,
+				3
 			]
 		},
 		"32": {
@@ -12916,7 +13035,8 @@
 				"cu_mp9_goo",
 				"cu_mp9_black_sand",
 				"cu_mp9_vein",
-				"hy_splatter3"
+				"hy_splatter3",
+				"gs_mp9_colony01"
 			],
 			"paintkit_rarities": [
 				3,
@@ -12940,7 +13060,8 @@
 				4,
 				3,
 				3,
-				1
+				1,
+				3
 			]
 		},
 		"35": {
@@ -12969,7 +13090,8 @@
 				"am_nova_sand",
 				"gs_nova_anchorite",
 				"cu_nova_toy_soldier",
-				"hy_ducts_grey"
+				"hy_ducts_grey",
+				"gs_nova_hunter_brute"
 			],
 			"paintkit_rarities": [
 				2,
@@ -12996,7 +13118,8 @@
 				4,
 				4,
 				4,
-				1
+				1,
+				3
 			]
 		},
 		"36": {
@@ -13031,7 +13154,8 @@
 				"cu_p250_cybercroc",
 				"gs_p250_checker",
 				"hy_blueprint_red",
-				"hy_ducts_blue"
+				"hy_ducts_blue",
+				"aa_p250_gravediggers"
 			],
 			"paintkit_rarities": [
 				2,
@@ -13064,7 +13188,8 @@
 				6,
 				4,
 				1,
-				3
+				3,
+				4
 			]
 		},
 		"38": {
@@ -13130,7 +13255,8 @@
 				"cu_sg556_triarch",
 				"gs_sg553_phantom",
 				"sp_sg533_aloha",
-				"cu_sg553_rally"
+				"cu_sg553_rally",
+				"gs_sg553_over_heated"
 			],
 			"paintkit_rarities": [
 				3,
@@ -13152,7 +13278,8 @@
 				4,
 				4,
 				3,
-				5
+				5,
+				3
 			]
 		},
 		"40": {
@@ -13272,7 +13399,8 @@
 				"cu_usps_noir",
 				"cu_usps_blueprint",
 				"cu_usp_cut",
-				"sp_mesh_safetyred"
+				"sp_mesh_safetyred",
+				"cu_usp_flashback"
 			],
 			"paintkit_rarities": [
 				2,
@@ -13296,7 +13424,8 @@
 				6,
 				3,
 				5,
-				3
+				3,
+				4
 			]
 		},
 		"63": {
@@ -14013,6 +14142,126 @@
 				5
 			]
 		},
+		"519": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		"520": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		"522": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		"523": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
 		"5027": {
 			"paintkit_names": [
 				"bloodhound_black_silver",
@@ -14248,6 +14497,7 @@
 		"966": "Bronze London 2018 Pick'Em Trophy",
 		"967": "Silver London 2018 Pick'Em Trophy",
 		"968": "Gold London 2018 Pick'Em Trophy",
+		"970": "Loyalty Badge",
 		"1001": "Operation Payback Challenge Coin",
 		"1002": "Silver Operation Payback Coin",
 		"1003": "Gold Operation Payback Coin",
@@ -14296,6 +14546,8 @@
 		"1051": "Empire Map Coin",
 		"1052": "Tulip Map Coin",
 		"1053": "Cruise Map Coin",
+		"1054": "Subzero Map Coin",
+		"1055": "Biome Map Coin",
 		"1316": "Operation Vanguard Challenge Coin",
 		"1317": "Silver Operation Vanguard Coin",
 		"1318": "Gold Operation Vanguard Coin",
@@ -14493,6 +14745,7 @@
 		966,
 		967,
 		968,
+		970,
 		1001,
 		1002,
 		1003,
@@ -14542,6 +14795,8 @@
 		1051,
 		1052,
 		1053,
+		1054,
+		1055,
 		1316,
 		1317,
 		1318,
