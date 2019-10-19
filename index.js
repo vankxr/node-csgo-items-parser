@@ -48,6 +48,7 @@ var weapon_classes = [
 	"weapon_usp_silencer",
 	"weapon_revolver",
 	"weapon_bayonet",
+	"weapon_knife_css",
 	"weapon_knife_flip",
 	"weapon_knife_gut",
 	"weapon_knife_karambit",
