@@ -640,7 +640,29 @@
 		"cu_r8_survivalist": "Survivalist",
 		"cu_tec9_snake": "Snek-9",
 		"cu_famas_owl_orange": "Eye of Athena",
+		"cu_ak_island_floral": "Wild Lotus",
+		"hy_bloom_red": "Day Lily",
+		"sp_bloom_orange": "Sunset Lily",
+		"am_bloom_blue": "Midnight Lily",
+		"sp_bud_green": "Teal Blossom",
+		"hy_bud_red": "Crimson Blossom",
+		"sp_bud_blue": "Dark Blossom",
+		"hy_leaf_green": "Banana Leaf",
+		"hy_leaf_blue": "Synth Leaf",
+		"sp_leaf_orange": "Rust Leaf",
+		"cu_mp9_island_floral": "Wild Lily",
 		"sp_nightstripe": "Night Stripe",
+		"gs_awp_enamel": "The Prince",
+		"gs_mag7_glass": "Cinquedea",
+		"hy_murano_orange": "Orange Murano",
+		"am_murano_violet": "Violet Murano",
+		"hy_murano_blue": "Navy Murano",
+		"am_ren_dark": "Dark Filigree",
+		"am_ren_red": "Red Filigree",
+		"hy_ren_orange": "Orange Filigree",
+		"am_veneto_red": "Baroque Red",
+		"hy_veneto_purple": "Baroque Purple",
+		"am_veneto2": "Baroque Orange",
 		"cu_dual_elites_rally": "Twin Turbo",
 		"gs_mac10_checker": "Calf Skin",
 		"gs_p250_checker": "Vino Primo",
@@ -650,6 +672,14 @@
 		"sp_tape_short_rally": "Dirt Drop",
 		"aq_steel_inferno": "Rust Coat",
 		"hy_splatter3": "Slide",
+		"gs_awp_gungnir": "Gungnir",
+		"am_jorm_green": "Emerald Jörmungandr",
+		"am_jorm_orange": "Flame Jörmungandr",
+		"am_jorm_blue": "Astral Jörmungandr",
+		"am_knots_silver": "Frost Borre",
+		"am_knots_brown": "Copper Borre",
+		"so_rune_stone": "Red Stone",
+		"gs_negev_thor": "Mjölnir",
 		"hy_blueprint_white": "Facility Sketch",
 		"hy_blueprint_aqua": "Facility Negative",
 		"hy_blueprint_red": "Facility Draft",
@@ -717,6 +747,38 @@
 		"am_marble_fade_widow": "Marble Fade",
 		"aq_damascus_prisma": "Damascus Steel",
 		"aq_damascus_widow": "Damascus Steel",
+		"am_crystallized_green": "Emerald Quartz",
+		"hy_gelpen_dark": "Pyre",
+		"sp_asgard_wall": "Barricade",
+		"am_crystallized_dark_green": "Moss Quartz",
+		"sp_knots_blue": "Night Borre",
+		"so_red_sg553": "Candy Apple",
+		"hy_canals_tile": "Stone Mosaico",
+		"sp_spray_water": "Canal Spray",
+		"am_stained_glass": "Stained Glass",
+		"hy_flowers_stmarc": "Sea Calico",
+		"sp_palm_sunset": "Sundown",
+		"sp_palm_green": "Jungle Thicket",
+		"sp_twigs_beach": "Surfwood",
+		"hy_bamboo_stmarc": "Bamboo Garden",
+		"so_aqua_stmarc": "Seabird",
+		"cu_bizon_road_warrior": "Embargo",
+		"gs_ak47_nibbler": "Rat Rod",
+		"cu_aug_whitefang": "Arctic Wolf",
+		"cu_awp_virus": "Containment Breach",
+		"gs_mp5_etch": "Acid Wash",
+		"gs_tec9_decimator": "Decimator",
+		"cu_nova_featherswing": "Plume",
+		"cu_g3sg1_blacksand": "Black Sand",
+		"gs_r8_memento": "Memento",
+		"cu_mp7_replica": "Neon Ply",
+		"cu_p2000_obsidian": "Obsidian",
+		"gs_dual_elites_rose": "Balance",
+		"sp_scar20_striker_dust": "Torn",
+		"cu_sg553_reactor": "Colony IV",
+		"gs_mac10_stalker": "Stalker",
+		"cu_ssg08_tickler": "Bloodshot",
+		"gs_m249_warbird_veteran": "Warbird",
 		"aq_m249_aztec": "Aztec",
 		"gs_dual_elites_classic": "Elite 1.6",
 		"cu_famas_nuke_tension": "Decommissioned",
@@ -734,6 +796,7 @@
 		"cu_awp_wildfire": "Wildfire",
 		"cu_glock_hero": "Sacrifice",
 		"gs_famas_legacy_gold": "Commemoration",
+		"hy_veneto_tan": "Boroque Sand",
 		"bloodhound_black_silver": "Charred",
 		"bloodhound_snakeskin_brass": "Snakebite",
 		"bloodhound_metallic": "Bronzed",
@@ -1424,7 +1487,29 @@
 		"cu_r8_survivalist": 721,
 		"cu_tec9_snake": 722,
 		"cu_famas_owl_orange": 723,
+		"cu_ak_island_floral": 724,
+		"hy_bloom_red": 725,
+		"sp_bloom_orange": 726,
+		"am_bloom_blue": 727,
+		"sp_bud_green": 728,
+		"hy_bud_red": 729,
+		"sp_bud_blue": 730,
+		"hy_leaf_green": 731,
+		"hy_leaf_blue": 732,
+		"sp_leaf_orange": 733,
+		"cu_mp9_island_floral": 734,
 		"sp_nightstripe": 735,
+		"gs_awp_enamel": 736,
+		"gs_mag7_glass": 737,
+		"hy_murano_orange": 738,
+		"am_murano_violet": 739,
+		"hy_murano_blue": 740,
+		"am_ren_dark": 741,
+		"am_ren_red": 742,
+		"hy_ren_orange": 743,
+		"am_veneto_red": 744,
+		"hy_veneto_purple": 745,
+		"am_veneto2": 746,
 		"cu_dual_elites_rally": 747,
 		"gs_mac10_checker": 748,
 		"gs_p250_checker": 749,
@@ -1434,6 +1519,14 @@
 		"sp_tape_short_rally": 753,
 		"aq_steel_inferno": 754,
 		"hy_splatter3": 755,
+		"gs_awp_gungnir": 756,
+		"am_jorm_green": 757,
+		"am_jorm_orange": 758,
+		"am_jorm_blue": 759,
+		"am_knots_silver": 760,
+		"am_knots_brown": 761,
+		"so_rune_stone": 762,
+		"gs_negev_thor": 763,
 		"hy_blueprint_white": 775,
 		"hy_blueprint_aqua": 776,
 		"hy_blueprint_red": 777,
@@ -1501,6 +1594,38 @@
 		"am_marble_fade_widow": 856,
 		"aq_damascus_prisma": 857,
 		"aq_damascus_widow": 858,
+		"am_crystallized_green": 859,
+		"hy_gelpen_dark": 860,
+		"sp_asgard_wall": 861,
+		"am_crystallized_dark_green": 862,
+		"sp_knots_blue": 863,
+		"so_red_sg553": 864,
+		"hy_canals_tile": 865,
+		"sp_spray_water": 866,
+		"am_stained_glass": 867,
+		"hy_flowers_stmarc": 868,
+		"sp_palm_sunset": 869,
+		"sp_palm_green": 870,
+		"sp_twigs_beach": 871,
+		"hy_bamboo_stmarc": 872,
+		"so_aqua_stmarc": 873,
+		"cu_bizon_road_warrior": 884,
+		"gs_ak47_nibbler": 885,
+		"cu_aug_whitefang": 886,
+		"cu_awp_virus": 887,
+		"gs_mp5_etch": 888,
+		"gs_tec9_decimator": 889,
+		"cu_nova_featherswing": 890,
+		"cu_g3sg1_blacksand": 891,
+		"gs_r8_memento": 892,
+		"cu_mp7_replica": 893,
+		"cu_p2000_obsidian": 894,
+		"gs_dual_elites_rose": 895,
+		"sp_scar20_striker_dust": 896,
+		"cu_sg553_reactor": 897,
+		"gs_mac10_stalker": 898,
+		"cu_ssg08_tickler": 899,
+		"gs_m249_warbird_veteran": 900,
 		"aq_m249_aztec": 902,
 		"gs_dual_elites_classic": 903,
 		"cu_famas_nuke_tension": 904,
@@ -1518,6 +1643,7 @@
 		"cu_awp_wildfire": 917,
 		"cu_glock_hero": 918,
 		"gs_famas_legacy_gold": 919,
+		"hy_veneto_tan": 920,
 		"bloodhound_black_silver": 10006,
 		"bloodhound_snakeskin_brass": 10007,
 		"bloodhound_metallic": 10008,
@@ -5524,6 +5650,42 @@
 		"chicken_capsule_nestegg_holo": "Nest Egg (Holo)",
 		"chicken_capsule_bigclucks_foil": "Big Clucks (Foil)",
 		"chicken_capsule_roostyboosty_foil": "Roosty Boosty (Foil)",
+		"spray_std2_1g": "1G",
+		"spray_std2_200iq": "200 IQ",
+		"spray_std2_applause": "Applause",
+		"spray_std2_beep": "BEEP",
+		"spray_std2_boom": "BOOM",
+		"spray_std2_brightstar": "Shining Star",
+		"spray_std2_brokenheart": "Broken Heart",
+		"spray_std2_bubble_denied": "Denied",
+		"spray_std2_bubble_question": "Question Mark",
+		"spray_std2_chef_kiss": "Chef Kiss",
+		"spray_std2_chick": "Little Bock",
+		"spray_std2_choke": "Choke",
+		"spray_std2_chunkychicken": "Bock Bock",
+		"spray_std2_dead_now": "Dead Now",
+		"spray_std2_fart": "Fart",
+		"spray_std2_goofy": "Goofy",
+		"spray_std2_grimace": "Grimace",
+		"spray_std2_happy_cat": "Happy Cat",
+		"spray_std2_hop": "Hop",
+		"spray_std2_kiss": "Kiss",
+		"spray_std2_lightbulb": "Lightbulb",
+		"spray_std2_little_crown": "Little Crown",
+		"spray_std2_little_ez": "Little EZ",
+		"spray_std2_littlebirds": "Dizzy",
+		"spray_std2_nt": "NT",
+		"spray_std2_okay": "Okay",
+		"spray_std2_omg": "OMG",
+		"spray_std2_oops": "Oops",
+		"spray_std2_puke": "Puke",
+		"spray_std2_rly": "Rly",
+		"spray_std2_silverbullet": "Silver Bullet",
+		"spray_std2_smarm": "Smarmy",
+		"spray_std2_smirk": "Smirk",
+		"spray_std2_smooch": "Smooch",
+		"spray_std2_thoughtfull": "Thoughtfull",
+		"spray_std2_uhoh": "Uh Oh",
 		"berlin2019_team_astr": "Astralis | Berlin 2019",
 		"berlin2019_team_astr_holo": "Astralis (Holo) | Berlin 2019",
 		"berlin2019_team_astr_foil": "Astralis (Foil) | Berlin 2019",
@@ -6009,6 +6171,15 @@
 		"berlin2019_signature_xand": "xand | Berlin 2019",
 		"berlin2019_signature_xand_foil": "xand (Foil) | Berlin 2019",
 		"berlin2019_signature_xand_gold": "xand (Gold) | Berlin 2019",
+		"shattered_web_counter_tech": "Counter-Tech",
+		"shattered_web_gold_web": "Gold Web",
+		"shattered_web_mastermind": "Mastermind",
+		"shattered_web_shattered_web": "Shattered Web",
+		"shattered_web_terrorist_tech_m9": "Terrorist-Tech",
+		"shattered_web_web_stuck": "Web Stuck",
+		"shattered_web_mastermind_holo": "Mastermind (Holo)",
+		"shattered_web_web_stuck_holo": "Web Stuck (Holo)",
+		"shattered_web_gold_web_normal": "Gold Web (Foil)",
 		"cs20_anniversary_pixel_holo": "CS20 Classic (Holo)",
 		"cs20_2old_glossy": "Too Old for This",
 		"cs20_arctic_avenger": "Pixel Avenger",
@@ -9988,6 +10159,42 @@
 		"chicken_capsule_nestegg_holo": 3980,
 		"chicken_capsule_bigclucks_foil": 3981,
 		"chicken_capsule_roostyboosty_foil": 3982,
+		"spray_std2_1g": 3983,
+		"spray_std2_200iq": 3984,
+		"spray_std2_applause": 3985,
+		"spray_std2_beep": 3986,
+		"spray_std2_boom": 3987,
+		"spray_std2_brightstar": 3988,
+		"spray_std2_brokenheart": 3989,
+		"spray_std2_bubble_denied": 3990,
+		"spray_std2_bubble_question": 3991,
+		"spray_std2_chef_kiss": 3992,
+		"spray_std2_chick": 3993,
+		"spray_std2_choke": 3994,
+		"spray_std2_chunkychicken": 3995,
+		"spray_std2_dead_now": 3996,
+		"spray_std2_fart": 3997,
+		"spray_std2_goofy": 3998,
+		"spray_std2_grimace": 3999,
+		"spray_std2_happy_cat": 4000,
+		"spray_std2_hop": 4001,
+		"spray_std2_kiss": 4002,
+		"spray_std2_lightbulb": 4003,
+		"spray_std2_little_crown": 4004,
+		"spray_std2_little_ez": 4005,
+		"spray_std2_littlebirds": 4006,
+		"spray_std2_nt": 4007,
+		"spray_std2_okay": 4008,
+		"spray_std2_omg": 4009,
+		"spray_std2_oops": 4010,
+		"spray_std2_puke": 4011,
+		"spray_std2_rly": 4012,
+		"spray_std2_silverbullet": 4013,
+		"spray_std2_smarm": 4014,
+		"spray_std2_smirk": 4015,
+		"spray_std2_smooch": 4016,
+		"spray_std2_thoughtfull": 4017,
+		"spray_std2_uhoh": 4018,
 		"berlin2019_team_astr": 4019,
 		"berlin2019_team_astr_holo": 4020,
 		"berlin2019_team_astr_foil": 4021,
@@ -10473,6 +10680,15 @@
 		"berlin2019_signature_xand": 4501,
 		"berlin2019_signature_xand_foil": 4502,
 		"berlin2019_signature_xand_gold": 4503,
+		"shattered_web_counter_tech": 4504,
+		"shattered_web_gold_web": 4505,
+		"shattered_web_mastermind": 4506,
+		"shattered_web_shattered_web": 4507,
+		"shattered_web_terrorist_tech_m9": 4508,
+		"shattered_web_web_stuck": 4509,
+		"shattered_web_mastermind_holo": 4510,
+		"shattered_web_web_stuck_holo": 4511,
+		"shattered_web_gold_web_normal": 4512,
 		"cs20_anniversary_pixel_holo": 4513,
 		"cs20_2old_glossy": 4514,
 		"cs20_arctic_avenger": 4515,
@@ -14452,6 +14668,42 @@
 		"chicken_capsule_nestegg_holo",
 		"chicken_capsule_bigclucks_foil",
 		"chicken_capsule_roostyboosty_foil",
+		"spray_std2_1g",
+		"spray_std2_200iq",
+		"spray_std2_applause",
+		"spray_std2_beep",
+		"spray_std2_boom",
+		"spray_std2_brightstar",
+		"spray_std2_brokenheart",
+		"spray_std2_bubble_denied",
+		"spray_std2_bubble_question",
+		"spray_std2_chef_kiss",
+		"spray_std2_chick",
+		"spray_std2_choke",
+		"spray_std2_chunkychicken",
+		"spray_std2_dead_now",
+		"spray_std2_fart",
+		"spray_std2_goofy",
+		"spray_std2_grimace",
+		"spray_std2_happy_cat",
+		"spray_std2_hop",
+		"spray_std2_kiss",
+		"spray_std2_lightbulb",
+		"spray_std2_little_crown",
+		"spray_std2_little_ez",
+		"spray_std2_littlebirds",
+		"spray_std2_nt",
+		"spray_std2_okay",
+		"spray_std2_omg",
+		"spray_std2_oops",
+		"spray_std2_puke",
+		"spray_std2_rly",
+		"spray_std2_silverbullet",
+		"spray_std2_smarm",
+		"spray_std2_smirk",
+		"spray_std2_smooch",
+		"spray_std2_thoughtfull",
+		"spray_std2_uhoh",
 		"berlin2019_team_astr",
 		"berlin2019_team_astr_holo",
 		"berlin2019_team_astr_foil",
@@ -14937,6 +15189,15 @@
 		"berlin2019_signature_xand",
 		"berlin2019_signature_xand_foil",
 		"berlin2019_signature_xand_gold",
+		"shattered_web_counter_tech",
+		"shattered_web_gold_web",
+		"shattered_web_mastermind",
+		"shattered_web_shattered_web",
+		"shattered_web_terrorist_tech_m9",
+		"shattered_web_web_stuck",
+		"shattered_web_mastermind_holo",
+		"shattered_web_web_stuck_holo",
+		"shattered_web_gold_web_normal",
 		"cs20_anniversary_pixel_holo",
 		"cs20_2old_glossy",
 		"cs20_arctic_avenger",
@@ -14985,6 +15246,7 @@
 				"aq_desert_eagle_constable",
 				"cu_desert_eagle_corroden",
 				"gs_deagle_aggressor",
+				"am_jorm_green",
 				"gs_deagle_mecha",
 				"gs_deagle_exo"
 			],
@@ -15013,6 +15275,7 @@
 				4,
 				3,
 				6,
+				4,
 				5,
 				4
 			]
@@ -15034,6 +15297,7 @@
 				"cu_elites_urbanstorm",
 				"gs_mother_of_pearl_elite",
 				"hy_zodiac1",
+				"an_emerald",
 				"cu_dualberretta_dragons",
 				"aq_dualberettas_cartel",
 				"gs_dualberettas_ventilators",
@@ -15041,6 +15305,8 @@
 				"gs_dualberettas_cobra",
 				"sp_elites_winter_raider",
 				"cu_dual_elites_rally",
+				"hy_gelpen_dark",
+				"gs_dual_elites_rose",
 				"gs_dual_elites_classic"
 			],
 			"paintkit_rarities": [
@@ -15062,10 +15328,13 @@
 				3,
 				3,
 				3,
+				3,
 				4,
 				5,
 				3,
 				5,
+				2,
+				3,
 				3
 			]
 		},
@@ -15095,6 +15364,7 @@
 				"cu_fiveseven_vein",
 				"cu_fiveseven_hyperbeast",
 				"gs_fiveseven_hot_rod_violet",
+				"hy_bud_red",
 				"hy_ducts_green",
 				"cu_five_seven_angry",
 				"cu_fiveseven_gsg9"
@@ -15123,6 +15393,7 @@
 				3,
 				3,
 				6,
+				3,
 				3,
 				1,
 				6,
@@ -15155,6 +15426,7 @@
 				"cu_glock_indigo",
 				"aa_glock_18_urban_moon_fever",
 				"gs_glock_thunder_dust",
+				"hy_leaf_blue",
 				"am_nuclear_skulls_green",
 				"aa_vertigo_blue",
 				"cu_glock18_corroden",
@@ -15185,6 +15457,7 @@
 				3,
 				4,
 				3,
+				4,
 				4,
 				2,
 				3,
@@ -15220,9 +15493,12 @@
 				"gs_ak_colony01_red",
 				"gs_ak47_empress",
 				"cu_ak_neon_rider",
+				"cu_ak_island_floral",
+				"hy_veneto_purple",
 				"hy_mesh_safetyorange",
 				"cu_ak47_asiimov",
-				"cu_ak47_aztec"
+				"cu_ak47_aztec",
+				"gs_ak47_nibbler"
 			],
 			"paintkit_rarities": [
 				5,
@@ -15252,9 +15528,12 @@
 				4,
 				6,
 				6,
+				6,
+				2,
 				4,
 				6,
-				3
+				3,
+				4
 			]
 		},
 		"8": {
@@ -15280,9 +15559,13 @@
 				"cu_aug_orange_triangle",
 				"gs_aug_stymphalian_birds",
 				"hy_aug_torn_orange",
+				"am_bloom_blue",
+				"hy_murano_blue",
+				"am_jorm_orange",
 				"am_circuitboard_orange",
 				"sp_mesh_safetyblack",
 				"cu_aug_momentum",
+				"cu_aug_whitefang",
 				"am_aug_death_by_doggy"
 			],
 			"paintkit_rarities": [
@@ -15309,7 +15592,11 @@
 				3,
 				4,
 				1,
+				4,
+				4,
+				1,
 				5,
+				4,
 				5
 			]
 		},
@@ -15338,9 +15625,12 @@
 				"cu_awp_hannya",
 				"gs_awp_death",
 				"am_awp_pawpaw",
+				"gs_awp_enamel",
+				"gs_awp_gungnir",
 				"hy_nuclear_skulls_redblue",
 				"cu_awp_neonoir",
 				"cu_awp_viper",
+				"cu_awp_virus",
 				"cu_awp_wildfire"
 			],
 			"paintkit_rarities": [
@@ -15367,9 +15657,12 @@
 				6,
 				5,
 				4,
+				6,
+				6,
 				3,
 				6,
 				4,
+				6,
 				6
 			]
 		},
@@ -15395,6 +15688,8 @@
 				"sp_famas_macabre",
 				"cu_famas_owl_orange",
 				"sp_famas_ghost_insects",
+				"sp_knots_blue",
+				"sp_palm_sunset",
 				"cu_famas_nuke_tension",
 				"gs_famas_legacy_gold"
 			],
@@ -15418,6 +15713,8 @@
 				5,
 				3,
 				5,
+				3,
+				1,
 				3,
 				3,
 				6
@@ -15445,7 +15742,9 @@
 				"gs_g3sg1_viper_yellow",
 				"gs_g3sg1_cetme_redux",
 				"gs_g3sg1_buccaneer",
-				"gs_g3sg1_savage"
+				"am_murano_violet",
+				"gs_g3sg1_savage",
+				"cu_g3sg1_blacksand"
 			],
 			"paintkit_rarities": [
 				2,
@@ -15468,13 +15767,16 @@
 				4,
 				3,
 				4,
-				4
+				3,
+				4,
+				3
 			]
 		},
 		"13": {
 			"paintkit_names": [
 				"hy_forest_winter",
 				"hy_ddpat_orange",
+				"so_tornado",
 				"sp_spray_desert_sage",
 				"hy_crumple_bravo",
 				"an_titanium30v",
@@ -15501,6 +15803,7 @@
 			"paintkit_rarities": [
 				2,
 				4,
+				1,
 				1,
 				3,
 				3,
@@ -15529,6 +15832,7 @@
 			"paintkit_names": [
 				"sp_spray",
 				"hy_blizzard",
+				"so_jungle",
 				"hy_ddpat_jungle_bravo",
 				"sp_mesh_python",
 				"aq_obsidian",
@@ -15538,12 +15842,14 @@
 				"gs_m249_nebula_crusader",
 				"cu_m249_spectre",
 				"sp_m249_frog_original",
+				"gs_m249_warbird_veteran",
 				"aq_m249_aztec"
 			],
 			"paintkit_rarities": [
 				1,
 				2,
 				1,
+				1,
 				2,
 				3,
 				3,
@@ -15552,6 +15858,7 @@
 				4,
 				3,
 				4,
+				3,
 				4
 			]
 		},
@@ -15581,6 +15888,7 @@
 				"gs_m4a4_sector",
 				"cu_m4a4_hellfire",
 				"cu_m4a4_neo_noir",
+				"sp_bud_blue",
 				"am_circuitboard_silver",
 				"hy_red_hex",
 				"gs_m4a4_chopper_ghost",
@@ -15612,6 +15920,7 @@
 				5,
 				6,
 				2,
+				2,
 				3,
 				3,
 				6
@@ -15642,9 +15951,13 @@
 				"aa_mac10_the_last_dive",
 				"am_mac10_aloha",
 				"am_mac10_oceani",
+				"am_ren_red",
 				"gs_mac10_checker",
+				"am_knots_brown",
 				"gs_mac10_exo_pipes",
 				"gs_mac10_fish_bait",
+				"sp_twigs_beach",
+				"gs_mac10_stalker",
 				"gs_mac10_dust_crate"
 			],
 			"paintkit_rarities": [
@@ -15671,9 +15984,13 @@
 				4,
 				3,
 				3,
+				4,
 				2,
+				3,
 				4,
 				3,
+				1,
+				6,
 				3
 			]
 		},
@@ -15703,6 +16020,9 @@
 				"gs_p90_shallow_grave",
 				"hy_p90_barebones_blue",
 				"gs_p90_tread",
+				"sp_bloom_orange",
+				"am_veneto_red",
+				"am_jorm_blue",
 				"hy_blueprint_aqua",
 				"cu_p90_offworld",
 				"cu_p90_nostalgia"
@@ -15732,6 +16052,9 @@
 				5,
 				4,
 				3,
+				2,
+				3,
+				4,
 				3,
 				3,
 				5
@@ -15744,6 +16067,8 @@
 				"hy_labrat_mp5",
 				"gs_mp5_festival_drip",
 				"gs_mp5sd_astromatic",
+				"hy_bamboo_stmarc",
+				"gs_mp5_etch",
 				"gs_mp5_fbi"
 			],
 			"paintkit_rarities": [
@@ -15752,6 +16077,8 @@
 				4,
 				5,
 				4,
+				1,
+				3,
 				4
 			]
 		},
@@ -15779,6 +16106,7 @@
 				"aq_ump45_flameflower",
 				"cu_ump45_x-ray_machine",
 				"cu_ump45_white_fang",
+				"hy_bloom_red",
 				"hy_blueprint_bluered",
 				"cu_ump_arrows",
 				"aa_ump45_moonrise_sunset",
@@ -15807,6 +16135,7 @@
 				3,
 				4,
 				4,
+				3,
 				1,
 				5,
 				4,
@@ -15837,6 +16166,8 @@
 				"aq_xm_leaf_fade",
 				"aq_xm1014_ziggy_anarchy",
 				"cu_xm1014_oxide_blaze",
+				"hy_leaf_green",
+				"am_knots_silver",
 				"cu_xm1014_incinerator"
 			],
 			"paintkit_rarities": [
@@ -15861,6 +16192,8 @@
 				3,
 				4,
 				4,
+				3,
+				2,
 				3,
 				5
 			]
@@ -15891,7 +16224,9 @@
 				"hy_bizon_torn_green",
 				"cu_bizon_all_in",
 				"cu_bizon_riot",
-				"hy_blueprint_white"
+				"hy_blueprint_white",
+				"so_aqua_stmarc",
+				"cu_bizon_road_warrior"
 			],
 			"paintkit_rarities": [
 				2,
@@ -15918,7 +16253,9 @@
 				3,
 				5,
 				3,
-				1
+				1,
+				1,
+				4
 			]
 		},
 		"27": {
@@ -15932,6 +16269,7 @@
 				"hy_icosahedron",
 				"sp_hazard_bravo",
 				"cu_mag7_heaven",
+				"am_chainmail",
 				"sp_mag7_firebitten",
 				"cu_mag7_redhot",
 				"hy_geometric_steps_green",
@@ -15942,6 +16280,7 @@
 				"am_mag7_malform",
 				"am_mag7_caustic",
 				"aq_mag7_swag7",
+				"gs_mag7_glass",
 				"aq_steel_inferno",
 				"hy_nuclear_hotorange",
 				"gs_mag7_popdog"
@@ -15956,6 +16295,7 @@
 				3,
 				3,
 				3,
+				2,
 				3,
 				4,
 				3,
@@ -15966,6 +16306,7 @@
 				3,
 				3,
 				4,
+				5,
 				1,
 				4,
 				3
@@ -15986,7 +16327,9 @@
 				"cu_negev_impact",
 				"hy_negev_dazzle",
 				"sp_negev_lionfish",
-				"hy_ducts_yellow"
+				"gs_negev_thor",
+				"hy_ducts_yellow",
+				"hy_veneto_tan"
 			],
 			"paintkit_rarities": [
 				3,
@@ -16002,7 +16345,9 @@
 				4,
 				3,
 				4,
-				2
+				5,
+				2,
+				1
 			]
 		},
 		"29": {
@@ -16031,7 +16376,8 @@
 				"aq_sawed-off_flower",
 				"cu_sawedoff_devourer",
 				"aa_vertigo_red",
-				"cu_sawedoff_black_sand"
+				"cu_sawedoff_black_sand",
+				"sp_palm_green"
 			],
 			"paintkit_rarities": [
 				1,
@@ -16058,7 +16404,8 @@
 				3,
 				5,
 				3,
-				3
+				3,
+				1
 			]
 		},
 		"30": {
@@ -16088,9 +16435,12 @@
 				"aq_tec9_chalk_pattern",
 				"cu_tec9_cracked_opal",
 				"cu_tec9_snake",
+				"sp_leaf_orange",
+				"hy_murano_orange",
 				"gs_tec9_envoy",
 				"gs_tec9_fubar",
 				"cu_tec9_bamboo",
+				"gs_tec9_decimator",
 				"cu_tec9_flash"
 			],
 			"paintkit_rarities": [
@@ -16119,9 +16469,12 @@
 				3,
 				3,
 				3,
+				2,
+				2,
 				5,
 				3,
 				4,
+				5,
 				3
 			]
 		},
@@ -16148,7 +16501,8 @@
 				"gs_p2000_imperial_dragon",
 				"gs_p2000-sport",
 				"cu_p2000_hunter",
-				"cu_p2000_urban_hazard"
+				"cu_p2000_urban_hazard",
+				"cu_p2000_obsidian"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16172,7 +16526,8 @@
 				5,
 				3,
 				4,
-				3
+				3,
+				4
 			]
 		},
 		"33": {
@@ -16183,6 +16538,7 @@
 				"an_navy",
 				"so_whiteout",
 				"sp_tape_orange",
+				"sp_dapple",
 				"so_olive_bravo",
 				"am_ossify_blue",
 				"sp_spray_army",
@@ -16198,9 +16554,11 @@
 				"sp_mp7_tribal_yellow",
 				"gs_mp7_bloodsport",
 				"gs_powercore_mp7",
+				"sp_bud_green",
 				"aa_fade_mp7",
 				"am_circuitboard_green",
-				"cu_mp7_racketeer"
+				"cu_mp7_racketeer",
+				"cu_mp7_replica"
 			],
 			"paintkit_rarities": [
 				1,
@@ -16209,6 +16567,7 @@
 				3,
 				3,
 				2,
+				1,
 				1,
 				4,
 				1,
@@ -16224,9 +16583,11 @@
 				3,
 				6,
 				4,
+				3,
 				4,
 				2,
-				3
+				3,
+				4
 			]
 		},
 		"34": {
@@ -16252,8 +16613,10 @@
 				"cu_mp9_goo",
 				"cu_mp9_black_sand",
 				"cu_mp9_vein",
+				"cu_mp9_island_floral",
 				"hy_splatter3",
 				"gs_mp9_colony01",
+				"am_stained_glass",
 				"cu_mp9_hydra"
 			],
 			"paintkit_rarities": [
@@ -16278,8 +16641,10 @@
 				4,
 				3,
 				3,
+				5,
 				1,
 				3,
+				4,
 				5
 			]
 		},
@@ -16309,8 +16674,10 @@
 				"am_nova_sand",
 				"gs_nova_anchorite",
 				"cu_nova_toy_soldier",
+				"am_veneto2",
 				"hy_ducts_grey",
-				"gs_nova_hunter_brute"
+				"gs_nova_hunter_brute",
+				"cu_nova_featherswing"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16337,7 +16704,9 @@
 				4,
 				4,
 				4,
+				4,
 				1,
+				3,
 				3
 			]
 		},
@@ -16372,6 +16741,7 @@
 				"am_p250_sputnik",
 				"cu_p250_axiom",
 				"cu_p250_cybercroc",
+				"am_ren_dark",
 				"gs_p250_checker",
 				"hy_blueprint_red",
 				"hy_ducts_blue",
@@ -16409,6 +16779,7 @@
 				3,
 				4,
 				6,
+				2,
 				4,
 				1,
 				3,
@@ -16424,6 +16795,7 @@
 				"so_stormfront",
 				"sp_mesh_sand",
 				"sp_palm",
+				"aq_brass",
 				"hy_hunter_blaze_pink",
 				"an_emerald_bravo",
 				"hy_webs_darker",
@@ -16437,6 +16809,8 @@
 				"gs_scar20_powercore",
 				"cu_blueprint_scar",
 				"hy_scar20_jungle_slipstream",
+				"hy_canals_tile",
+				"sp_scar20_striker_dust",
 				"cu_scar_assault"
 			],
 			"paintkit_rarities": [
@@ -16445,6 +16819,7 @@
 				1,
 				1,
 				2,
+				3,
 				5,
 				4,
 				3,
@@ -16457,6 +16832,8 @@
 				5,
 				4,
 				3,
+				3,
+				1,
 				3,
 				3
 			]
@@ -16483,7 +16860,10 @@
 				"gs_sg553_phantom",
 				"sp_sg533_aloha",
 				"cu_sg553_rally",
-				"gs_sg553_over_heated"
+				"gs_sg553_over_heated",
+				"sp_asgard_wall",
+				"so_red_sg553",
+				"cu_sg553_reactor"
 			],
 			"paintkit_rarities": [
 				3,
@@ -16506,7 +16886,10 @@
 				4,
 				3,
 				5,
-				3
+				3,
+				1,
+				2,
+				5
 			]
 		},
 		"40": {
@@ -16527,7 +16910,11 @@
 				"gs_ssg08_armacore",
 				"cu_ssg08_dragonfire_scope",
 				"cu_ssg08_deathshead",
-				"gs_ssg08_checker"
+				"hy_ren_orange",
+				"gs_ssg08_checker",
+				"so_rune_stone",
+				"hy_flowers_stmarc",
+				"cu_ssg08_tickler"
 			],
 			"paintkit_rarities": [
 				1,
@@ -16546,7 +16933,11 @@
 				4,
 				6,
 				4,
-				3
+				3,
+				3,
+				1,
+				4,
+				5
 			]
 		},
 		"60": {
@@ -16574,7 +16965,8 @@
 				"cu_m4a1s_metritera",
 				"gs_m4a1_shatter",
 				"cu_m4a1s_nightmare",
-				"gs_m4a1s_operator"
+				"gs_m4a1s_operator",
+				"am_crystallized_dark_green"
 			],
 			"paintkit_rarities": [
 				4,
@@ -16600,7 +16992,8 @@
 				3,
 				5,
 				5,
-				5
+				5,
+				2
 			]
 		},
 		"61": {
@@ -16618,6 +17011,7 @@
 				"hy_indigo_usp",
 				"cu_kaiman",
 				"cu_luggage_usp-s",
+				"sp_labyrinth2",
 				"so_khaki_green",
 				"cu_usp_progressiv",
 				"cu_usp_kill_confirmed",
@@ -16644,6 +17038,7 @@
 				5,
 				3,
 				2,
+				2,
 				3,
 				6,
 				3,
@@ -16667,6 +17062,7 @@
 				"am_nitrogen",
 				"so_orange_accents2",
 				"am_royal",
+				"so_indigo_and_grey",
 				"am_gyrate",
 				"cu_c75a-tiger",
 				"hy_plaid2",
@@ -16678,7 +17074,8 @@
 				"am_czv2_mf",
 				"gs_cz_snakes_purple",
 				"gs_cz75_tacticat",
-				"cu_cz75_eco"
+				"cu_cz75_eco",
+				"am_crystallized_green"
 			],
 			"paintkit_rarities": [
 				3,
@@ -16691,6 +17088,7 @@
 				3,
 				3,
 				4,
+				1,
 				3,
 				4,
 				1,
@@ -16702,7 +17100,8 @@
 				3,
 				5,
 				4,
-				4
+				4,
+				3
 			]
 		},
 		"64": {
@@ -16716,7 +17115,9 @@
 				"gs_revolver_tread",
 				"cu_r8_survivalist",
 				"so_orange_accents3",
-				"cu_revolver_oppressor"
+				"cu_revolver_oppressor",
+				"sp_spray_water",
+				"gs_r8_memento"
 			],
 			"paintkit_rarities": [
 				3,
@@ -16728,7 +17129,9 @@
 				3,
 				3,
 				2,
-				5
+				5,
+				1,
+				3
 			]
 		},
 		"500": {
@@ -17401,6 +17804,66 @@
 				5
 			]
 		},
+		"517": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
+		"518": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
 		"519": {
 			"paintkit_names": [
 				"hy_ddpat",
@@ -17509,6 +17972,36 @@
 				4
 			]
 		},
+		"521": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
+			]
+		},
 		"522": {
 			"paintkit_names": [
 				"hy_ddpat",
@@ -17615,6 +18108,36 @@
 				4,
 				5,
 				4
+			]
+		},
+		"525": {
+			"paintkit_names": [
+				"hy_ddpat",
+				"hy_webs",
+				"aa_fade",
+				"aq_blued",
+				"aq_forced",
+				"aq_oiled",
+				"am_zebra",
+				"sp_mesh_tan",
+				"hy_forest_boreal",
+				"sp_tape_urban",
+				"sp_dapple",
+				"sp_nightstripe"
+			],
+			"paintkit_rarities": [
+				1,
+				3,
+				3,
+				2,
+				2,
+				4,
+				3,
+				1,
+				1,
+				1,
+				1,
+				1
 			]
 		},
 		"5027": {
@@ -17911,6 +18434,8 @@
 		"1056": "Abbey Map Coin",
 		"1057": "Ruby Map Coin",
 		"1058": "Breach Map Coin",
+		"1059": "Studio Map Coin",
+		"1060": "Jungle Map Coin",
 		"1316": "Operation Vanguard Challenge Coin",
 		"1317": "Silver Operation Vanguard Coin",
 		"1318": "Gold Operation Vanguard Coin",
@@ -17951,6 +18476,13 @@
 		"4354": "Silver Operation Hydra Coin",
 		"4355": "Gold Operation Hydra Coin",
 		"4356": "Diamond Operation Hydra Coin",
+		"4550": "Operation Shattered Web Challenge Coin",
+		"4551": "Silver Operation Shattered Web Coin",
+		"4552": "Gold Operation Shattered Web Coin",
+		"4553": "Diamond Operation Shattered Web Coin",
+		"4671": "1 Star for Operation Shattered Web",
+		"4672": "10 Stars for Operation Shattered Web",
+		"4673": "100 Stars for Operation Shattered Web",
 		"6001": "Dust II Pin",
 		"6002": "Guardian Elite Pin",
 		"6003": "Mirage Pin",
@@ -18178,6 +18710,8 @@
 		1056,
 		1057,
 		1058,
+		1059,
+		1060,
 		1316,
 		1317,
 		1318,
@@ -18218,6 +18752,13 @@
 		4354,
 		4355,
 		4356,
+		4550,
+		4551,
+		4552,
+		4553,
+		4671,
+		4672,
+		4673,
 		6001,
 		6002,
 		6003,
