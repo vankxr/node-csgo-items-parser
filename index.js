@@ -86,8 +86,12 @@ var out = {
 	stickerkit_ids: {},
 	stickerkits: [],
 	weapon_skins: {},
+	medals: [],
 	medal_names: {},
-	medals: []
+	agents: [[], []],
+	agent_names: {},
+	agent_models: {},
+	agent_rarities: {}
 };
 
 var item_indexes = Object.keys(items_game.items);
@@ -105,6 +109,29 @@ for(var i = 0; i < item_indexes.length; i++) {
 
 		out.medals.push(parseInt(item_indexes[i]));
 		out.medal_names[item_indexes[i]] = medal_lang_name;
+	}
+
+	if(items_game.items[item_indexes[i]].prefab == "customplayertradable")
+	{
+		var agent_class;
+
+		if(items_game.items[item_indexes[i]].used_by_classes["terrorists"])
+			agent_class = 0;
+		else if(items_game.items[item_indexes[i]].used_by_classes["counter-terrorists"])
+			agent_class = 1;
+		else
+			continue;
+
+		var agent_lang_key = items_game.items[item_indexes[i]].item_name.replace("#", "");
+		var agent_lang_name = csgo_english.Tokens[agent_lang_key];
+
+		if(!agent_lang_name)
+			agent_lang_name = agent_lang_key.replace("CSGO_CustomPlayer_", "")
+
+		out.agents[agent_class].push(parseInt(item_indexes[i]));
+		out.agent_names[item_indexes[i]] = agent_lang_name;
+		out.agent_models[item_indexes[i]] = items_game.items[item_indexes[i]].model_player;
+		out.agent_rarities[item_indexes[i]] = item_rarities.indexOf(items_game.items[item_indexes[i]].item_rarity);
 	}
 }
 
