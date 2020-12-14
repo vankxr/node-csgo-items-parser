@@ -814,6 +814,23 @@
 		"cu_sg553_darkwing": "Darkwing",
 		"cu_ssg08_fever_dream": "Fever Dream",
 		"cu_glock18_warmaiden": "Bullet Queen",
+		"cu_negev_ultralight": "Ultralight",
+		"cu_ak47_anubis": "Legion of Anubis",
+		"aq_p2000_lost_world": "Gnarled",
+		"cu_mag7_monster_call": "Monster Call",
+		"cu_deag_printstream": "Printstream",
+		"cu_glock_eyecontact": "Vogue",
+		"gs_tec9_guerilla": "Brother",
+		"cu_mac10_isoonna": "Allure",
+		"gs_sg553_rusty": "Ol' Rusty",
+		"cu_ssg08_mainframe": "Mainframe 001",
+		"cu_p250_cassette": "Cassette",
+		"gs_p90_container": "Freight",
+		"cu_xm1014_amulet_blue": "Entombed",
+		"cu_m4a4_queenfairy": "Tooth Fairy",
+		"gs_galil_phoenix": "Connexion",
+		"gs_bizon_hellraider": "Runic",
+		"gs_mp5sd_wasteland_legacy": "Kitbash",
 		"bloodhound_black_silver": "Charred",
 		"bloodhound_snakeskin_brass": "Snakebite",
 		"bloodhound_metallic": "Bronzed",
@@ -1678,6 +1695,23 @@
 		"cu_sg553_darkwing": 955,
 		"cu_ssg08_fever_dream": 956,
 		"cu_glock18_warmaiden": 957,
+		"cu_negev_ultralight": 958,
+		"cu_ak47_anubis": 959,
+		"aq_p2000_lost_world": 960,
+		"cu_mag7_monster_call": 961,
+		"cu_deag_printstream": 962,
+		"cu_glock_eyecontact": 963,
+		"gs_tec9_guerilla": 964,
+		"cu_mac10_isoonna": 965,
+		"gs_sg553_rusty": 966,
+		"cu_ssg08_mainframe": 967,
+		"cu_p250_cassette": 968,
+		"gs_p90_container": 969,
+		"cu_xm1014_amulet_blue": 970,
+		"cu_m4a4_queenfairy": 971,
+		"gs_galil_phoenix": 972,
+		"gs_bizon_hellraider": 973,
+		"gs_mp5sd_wasteland_legacy": 974,
 		"bloodhound_black_silver": 10006,
 		"bloodhound_snakeskin_brass": 10007,
 		"bloodhound_metallic": 10008,
@@ -6295,7 +6329,24 @@
 		"combine_mask_broken_holo": "Combine Helmet (Holo)",
 		"lambda_holo": "Lambda (Holo)",
 		"last_vance_gold": "Last Vance (Gold)",
-		"health_foil": "Health (Gold)"
+		"health_foil": "Health (Gold)",
+		"warhammer_adepta_sororitas_paper": "Adepta Sororitas",
+		"warhammer_aeldari_paper": "Aeldari Avatar",
+		"warhammer_full_buy_paper": "Full Buy",
+		"warhammer_heresy_paper": "Heresy",
+		"warhammer_necron_paper": "Necron",
+		"warhammer_ork_waaagh_paper": "Ork Waaagh!",
+		"warhammer_primaris_keychain_paper": "Primaris Keychain",
+		"warhammer_repulsor_paper": "Repulsor",
+		"warhammer_space_marine_paper": "Space Marine",
+		"warhammer_tyranids_ravener_paper": "Tyranids Ravener",
+		"warhammer_heresy_holo": "Heresy (Holo)",
+		"warhammer_lord_of_skulls_holo": "Lord of Skulls (Holo)",
+		"warhammer_space_marine_holo": "Space Marine (Holo)",
+		"warhammer_tyranids_hive_tyrant_holo": "Tyranids Hive Tyrant (Holo)",
+		"warhammer_bloodthirster_foil": "Bloodthirster (Foil)",
+		"warhammer_chaos_marine_foil": "Chaos Marine (Foil)",
+		"warhammer_emperor_foil": "Emperor (Foil)"
 	},
 	"stickerkit_ids": {
 		"default": 0,
@@ -10866,7 +10917,24 @@
 		"combine_mask_broken_holo": 4610,
 		"lambda_holo": 4611,
 		"last_vance_gold": 4612,
-		"health_foil": 4613
+		"health_foil": 4613,
+		"warhammer_adepta_sororitas_paper": 4614,
+		"warhammer_aeldari_paper": 4615,
+		"warhammer_full_buy_paper": 4616,
+		"warhammer_heresy_paper": 4617,
+		"warhammer_necron_paper": 4618,
+		"warhammer_ork_waaagh_paper": 4619,
+		"warhammer_primaris_keychain_paper": 4620,
+		"warhammer_repulsor_paper": 4621,
+		"warhammer_space_marine_paper": 4622,
+		"warhammer_tyranids_ravener_paper": 4623,
+		"warhammer_heresy_holo": 4624,
+		"warhammer_lord_of_skulls_holo": 4625,
+		"warhammer_space_marine_holo": 4626,
+		"warhammer_tyranids_hive_tyrant_holo": 4627,
+		"warhammer_bloodthirster_foil": 4628,
+		"warhammer_chaos_marine_foil": 4629,
+		"warhammer_emperor_foil": 4630
 	},
 	"stickerkits": [
 		"default",
@@ -15437,7 +15505,24 @@
 		"combine_mask_broken_holo",
 		"lambda_holo",
 		"last_vance_gold",
-		"health_foil"
+		"health_foil",
+		"warhammer_adepta_sororitas_paper",
+		"warhammer_aeldari_paper",
+		"warhammer_full_buy_paper",
+		"warhammer_heresy_paper",
+		"warhammer_necron_paper",
+		"warhammer_ork_waaagh_paper",
+		"warhammer_primaris_keychain_paper",
+		"warhammer_repulsor_paper",
+		"warhammer_space_marine_paper",
+		"warhammer_tyranids_ravener_paper",
+		"warhammer_heresy_holo",
+		"warhammer_lord_of_skulls_holo",
+		"warhammer_space_marine_holo",
+		"warhammer_tyranids_hive_tyrant_holo",
+		"warhammer_bloodthirster_foil",
+		"warhammer_chaos_marine_foil",
+		"warhammer_emperor_foil"
 	],
 	"weapon_skins": {
 		"1": {
@@ -15469,7 +15554,8 @@
 				"am_jorm_green",
 				"gs_deagle_mecha",
 				"gs_deagle_exo",
-				"cu_deagle_replica"
+				"cu_deagle_replica",
+				"cu_deag_printstream"
 			],
 			"paintkit_rarities": [
 				2,
@@ -15499,7 +15585,8 @@
 				4,
 				5,
 				4,
-				3
+				3,
+				6
 			]
 		},
 		"2": {
@@ -15653,7 +15740,8 @@
 				"aa_vertigo_blue",
 				"cu_glock18_corroden",
 				"cu_glock_hero",
-				"cu_glock18_warmaiden"
+				"cu_glock18_warmaiden",
+				"cu_glock_eyecontact"
 			],
 			"paintkit_rarities": [
 				2,
@@ -15685,7 +15773,8 @@
 				2,
 				3,
 				3,
-				6
+				6,
+				5
 			]
 		},
 		"7": {
@@ -15723,7 +15812,8 @@
 				"cu_ak47_asiimov",
 				"cu_ak47_aztec",
 				"gs_ak47_nibbler",
-				"cu_ak-47_phantom_disruptor"
+				"cu_ak-47_phantom_disruptor",
+				"cu_ak47_anubis"
 			],
 			"paintkit_rarities": [
 				5,
@@ -15759,7 +15849,8 @@
 				6,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		},
 		"8": {
@@ -16028,7 +16119,8 @@
 				"cu_galil_candychaos",
 				"hy_nuclear_skulls_aqua",
 				"hy_galil_signal_red",
-				"sp_galil_akoben"
+				"sp_galil_akoben",
+				"gs_galil_phoenix"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16055,7 +16147,8 @@
 				5,
 				2,
 				4,
-				3
+				3,
+				4
 			]
 		},
 		"14": {
@@ -16122,7 +16215,8 @@
 				"am_circuitboard_silver",
 				"hy_red_hex",
 				"gs_m4a4_chopper_ghost",
-				"gs_m4a4_emperor"
+				"gs_m4a4_emperor",
+				"cu_m4a4_queenfairy"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16153,7 +16247,8 @@
 				2,
 				3,
 				3,
-				6
+				6,
+				5
 			]
 		},
 		"17": {
@@ -16189,7 +16284,8 @@
 				"sp_twigs_beach",
 				"gs_mac10_stalker",
 				"gs_mac10_dust_crate",
-				"cu_mac10_nacre"
+				"cu_mac10_nacre",
+				"cu_mac10_isoonna"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16223,7 +16319,8 @@
 				1,
 				6,
 				3,
-				5
+				5,
+				4
 			]
 		},
 		"19": {
@@ -16257,7 +16354,8 @@
 				"am_jorm_blue",
 				"hy_blueprint_aqua",
 				"cu_p90_offworld",
-				"cu_p90_nostalgia"
+				"cu_p90_nostalgia",
+				"gs_p90_container"
 			],
 			"paintkit_rarities": [
 				4,
@@ -16289,7 +16387,8 @@
 				4,
 				3,
 				3,
-				5
+				5,
+				3
 			]
 		},
 		"23": {
@@ -16302,7 +16401,8 @@
 				"hy_bamboo_stmarc",
 				"gs_mp5_etch",
 				"gs_mp5_fbi",
-				"cu_mp5_desert_strike"
+				"cu_mp5_desert_strike",
+				"gs_mp5sd_wasteland_legacy"
 			],
 			"paintkit_rarities": [
 				1,
@@ -16313,7 +16413,8 @@
 				1,
 				3,
 				4,
-				3
+				3,
+				4
 			]
 		},
 		"24": {
@@ -16402,7 +16503,8 @@
 				"cu_xm1014_oxide_blaze",
 				"hy_leaf_green",
 				"am_knots_silver",
-				"cu_xm1014_incinerator"
+				"cu_xm1014_incinerator",
+				"cu_xm1014_amulet_blue"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16429,6 +16531,7 @@
 				3,
 				2,
 				3,
+				5,
 				5
 			]
 		},
@@ -16460,7 +16563,8 @@
 				"cu_bizon_riot",
 				"hy_blueprint_white",
 				"so_aqua_stmarc",
-				"cu_bizon_road_warrior"
+				"cu_bizon_road_warrior",
+				"gs_bizon_hellraider"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16489,7 +16593,8 @@
 				3,
 				1,
 				1,
-				4
+				4,
+				3
 			]
 		},
 		"27": {
@@ -16518,7 +16623,8 @@
 				"aq_steel_inferno",
 				"hy_nuclear_hotorange",
 				"gs_mag7_popdog",
-				"gs_mag7_justice"
+				"gs_mag7_justice",
+				"cu_mag7_monster_call"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16545,7 +16651,8 @@
 				1,
 				4,
 				3,
-				5
+				5,
+				4
 			]
 		},
 		"28": {
@@ -16566,7 +16673,8 @@
 				"gs_negev_thor",
 				"hy_ducts_yellow",
 				"hy_veneto_tan",
-				"cu_negev_prototype"
+				"cu_negev_prototype",
+				"cu_negev_ultralight"
 			],
 			"paintkit_rarities": [
 				3,
@@ -16585,6 +16693,7 @@
 				5,
 				2,
 				1,
+				3,
 				3
 			]
 		},
@@ -16681,7 +16790,8 @@
 				"gs_tec9_fubar",
 				"cu_tec9_bamboo",
 				"gs_tec9_decimator",
-				"cu_tec9_flash"
+				"cu_tec9_flash",
+				"gs_tec9_guerilla"
 			],
 			"paintkit_rarities": [
 				1,
@@ -16715,7 +16825,8 @@
 				3,
 				4,
 				5,
-				3
+				3,
+				4
 			]
 		},
 		"32": {
@@ -16743,7 +16854,8 @@
 				"cu_p2000_hunter",
 				"cu_p2000_urban_hazard",
 				"cu_p2000_obsidian",
-				"aq_p2000_acid_clover"
+				"aq_p2000_acid_clover",
+				"aq_p2000_lost_world"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16769,7 +16881,8 @@
 				4,
 				3,
 				4,
-				4
+				4,
+				3
 			]
 		},
 		"33": {
@@ -16989,7 +17102,8 @@
 				"hy_ducts_blue",
 				"aa_p250_gravediggers",
 				"aq_p250_verdigris",
-				"gs_p250_inferno"
+				"gs_p250_inferno",
+				"cu_p250_cassette"
 			],
 			"paintkit_rarities": [
 				2,
@@ -17027,7 +17141,8 @@
 				3,
 				4,
 				3,
-				4
+				4,
+				3
 			]
 		},
 		"38": {
@@ -17108,7 +17223,8 @@
 				"sp_asgard_wall",
 				"so_red_sg553",
 				"cu_sg553_reactor",
-				"cu_sg553_darkwing"
+				"cu_sg553_darkwing",
+				"gs_sg553_rusty"
 			],
 			"paintkit_rarities": [
 				3,
@@ -17135,7 +17251,8 @@
 				1,
 				2,
 				5,
-				4
+				4,
+				3
 			]
 		},
 		"40": {
@@ -17161,7 +17278,8 @@
 				"so_rune_stone",
 				"hy_flowers_stmarc",
 				"cu_ssg08_tickler",
-				"cu_ssg08_fever_dream"
+				"cu_ssg08_fever_dream",
+				"cu_ssg08_mainframe"
 			],
 			"paintkit_rarities": [
 				1,
@@ -17185,7 +17303,8 @@
 				1,
 				4,
 				5,
-				4
+				4,
+				3
 			]
 		},
 		"60": {
@@ -18697,6 +18816,8 @@
 		1060,
 		1061,
 		1062,
+		1063,
+		1064,
 		1316,
 		1317,
 		1318,
@@ -18989,6 +19110,8 @@
 		"1060": "Jungle Map Coin",
 		"1061": "Anubis Map Coin",
 		"1062": "Chlorine Map Coin",
+		"1063": "Mutiny Map Coin",
+		"1064": "Swamp Map Coin",
 		"1316": "Operation Vanguard Challenge Coin",
 		"1317": "Silver Operation Vanguard Coin",
 		"1318": "Gold Operation Vanguard Coin",
