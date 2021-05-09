@@ -891,6 +891,23 @@
 		"hy_ruins_red": "Dusk Ruins",
 		"am_jade": "Carved Jade",
 		"am_ancient_wine": "Ancient Ritual",
+		"gs_ak47_professional": "Slate",
+		"cu_cz75_whirlwind": "Circaetus",
+		"cu_mp9_food_chain": "Food Chain",
+		"cu_galil_chroma_pink": "Chromatic Aberration",
+		"gs_glock_polymer": "Clear Polymer",
+		"gs_usps_hangedman": "The Traitor",
+		"cu_m4a4_love": "In Living Color",
+		"gs_m249_combine": "O.S.I.P.R.",
+		"cu_negev_devtexture": "dev_texture",
+		"gs_p250_cybershell": "Cyber Shell",
+		"cu_mac10_portable": "Button Masher",
+		"aq_xm1014_punk": "XOXO",
+		"gs_r8_rustking": "Junk Yard",
+		"gs_sg553_deathmetal": "Heavy Metal",
+		"am_ump45_electrowave": "Oscillator",
+		"cu_deag_trigger_discipline": "Trigger Discipline",
+		"sp_nova_wind_dispersal": "Windblown",
 		"bloodhound_black_silver": "Charred",
 		"bloodhound_snakeskin_brass": "Snakebite",
 		"bloodhound_metallic": "Bronzed",
@@ -1856,6 +1873,23 @@
 		"hy_ruins_red": 1032,
 		"am_jade": 1033,
 		"am_ancient_wine": 1034,
+		"gs_ak47_professional": 1035,
+		"cu_cz75_whirlwind": 1036,
+		"cu_mp9_food_chain": 1037,
+		"cu_galil_chroma_pink": 1038,
+		"gs_glock_polymer": 1039,
+		"gs_usps_hangedman": 1040,
+		"cu_m4a4_love": 1041,
+		"gs_m249_combine": 1042,
+		"cu_negev_devtexture": 1043,
+		"gs_p250_cybershell": 1044,
+		"cu_mac10_portable": 1045,
+		"aq_xm1014_punk": 1046,
+		"gs_r8_rustking": 1047,
+		"gs_sg553_deathmetal": 1048,
+		"am_ump45_electrowave": 1049,
+		"cu_deag_trigger_discipline": 1050,
+		"sp_nova_wind_dispersal": 1051,
 		"bloodhound_black_silver": 10006,
 		"bloodhound_snakeskin_brass": 10007,
 		"bloodhound_metallic": 10008,
@@ -16319,7 +16353,8 @@
 				"cu_deagle_replica",
 				"cu_deag_printstream",
 				"am_numbers_bronze",
-				"am_heist_plans_purple"
+				"am_heist_plans_purple",
+				"cu_deag_trigger_discipline"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16352,7 +16387,8 @@
 				3,
 				6,
 				2,
-				3
+				3,
+				4
 			]
 		},
 		"2": {
@@ -16519,7 +16555,8 @@
 				"cu_glock18_warmaiden",
 				"cu_glock_eyecontact",
 				"cu_glock_noir",
-				"cu_money_glock"
+				"cu_money_glock",
+				"gs_glock_polymer"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16554,7 +16591,8 @@
 				6,
 				5,
 				6,
-				4
+				4,
+				3
 			]
 		},
 		"7": {
@@ -16595,7 +16633,8 @@
 				"cu_ak-47_phantom_disruptor",
 				"cu_ak47_anubis",
 				"cu_ak_xray",
-				"cu_ak_jaguar"
+				"cu_ak_jaguar",
+				"gs_ak47_professional"
 			],
 			"paintkit_rarities": [
 				5,
@@ -16634,7 +16673,8 @@
 				5,
 				6,
 				6,
-				5
+				5,
+				4
 			]
 		},
 		"8": {
@@ -16925,7 +16965,8 @@
 				"gs_galil_phoenix",
 				"gs_galil_vandal",
 				"sp_phoenix_tags_purple",
-				"hy_ruins_red"
+				"hy_ruins_red",
+				"cu_galil_chroma_pink"
 			],
 			"paintkit_rarities": [
 				2,
@@ -16956,7 +16997,8 @@
 				4,
 				3,
 				4,
-				3
+				3,
+				5
 			]
 		},
 		"14": {
@@ -16976,7 +17018,8 @@
 				"sp_m249_frog_original",
 				"gs_m249_warbird_veteran",
 				"aq_m249_aztec",
-				"cu_m249_deep_relief"
+				"cu_m249_deep_relief",
+				"gs_m249_combine"
 			],
 			"paintkit_rarities": [
 				1,
@@ -16994,6 +17037,7 @@
 				4,
 				3,
 				4,
+				3,
 				3
 			]
 		},
@@ -17030,7 +17074,8 @@
 				"gs_m4a4_emperor",
 				"cu_m4a4_queenfairy",
 				"cu_m4a4_cyberpunk",
-				"cu_csgo_camo"
+				"cu_csgo_camo",
+				"cu_m4a4_love"
 			],
 			"paintkit_rarities": [
 				2,
@@ -17064,7 +17109,8 @@
 				6,
 				5,
 				5,
-				3
+				3,
+				6
 			]
 		},
 		"17": {
@@ -17103,7 +17149,8 @@
 				"cu_mac10_nacre",
 				"cu_mac10_isoonna",
 				"gs_mac10_snake",
-				"am_gold_brick"
+				"am_gold_brick",
+				"cu_mac10_portable"
 			],
 			"paintkit_rarities": [
 				2,
@@ -17140,6 +17187,7 @@
 				5,
 				4,
 				5,
+				4,
 				4
 			]
 		},
@@ -17280,7 +17328,8 @@
 				"cu_ump_bomb",
 				"gs_ump_gold_bismuth",
 				"cu_ump_crime_scene",
-				"hy_houndstooth_brown"
+				"hy_houndstooth_brown",
+				"am_ump45_electrowave"
 			],
 			"paintkit_rarities": [
 				2,
@@ -17312,7 +17361,8 @@
 				4,
 				4,
 				4,
-				2
+				2,
+				3
 			]
 		},
 		"25": {
@@ -17344,7 +17394,8 @@
 				"cu_xm1014_incinerator",
 				"cu_xm1014_amulet_blue",
 				"am_authority_brown",
-				"am_ancient_warm"
+				"am_ancient_warm",
+				"aq_xm1014_punk"
 			],
 			"paintkit_rarities": [
 				2,
@@ -17374,7 +17425,8 @@
 				5,
 				5,
 				1,
-				4
+				4,
+				5
 			]
 		},
 		"26": {
@@ -17521,7 +17573,8 @@
 				"hy_veneto_tan",
 				"cu_negev_prototype",
 				"cu_negev_ultralight",
-				"hy_phoenix_tags_red"
+				"hy_phoenix_tags_red",
+				"cu_negev_devtexture"
 			],
 			"paintkit_rarities": [
 				3,
@@ -17542,7 +17595,8 @@
 				1,
 				3,
 				3,
-				3
+				3,
+				4
 			]
 		},
 		"29": {
@@ -17835,7 +17889,8 @@
 				"hy_splatter3",
 				"gs_mp9_colony01",
 				"am_stained_glass",
-				"cu_mp9_hydra"
+				"cu_mp9_hydra",
+				"cu_mp9_food_chain"
 			],
 			"paintkit_rarities": [
 				3,
@@ -17864,6 +17919,7 @@
 				1,
 				3,
 				4,
+				5,
 				5
 			]
 		},
@@ -17899,7 +17955,8 @@
 				"hy_ducts_grey",
 				"gs_nova_hunter_brute",
 				"cu_nova_featherswing",
-				"cu_nova_polymer"
+				"cu_nova_polymer",
+				"sp_nova_wind_dispersal"
 			],
 			"paintkit_rarities": [
 				2,
@@ -17932,7 +17989,8 @@
 				1,
 				3,
 				3,
-				4
+				4,
+				3
 			]
 		},
 		"36": {
@@ -17976,7 +18034,8 @@
 				"gs_p250_inferno",
 				"cu_p250_cassette",
 				"cu_p250_infect",
-				"hy_p250_tiger"
+				"hy_p250_tiger",
+				"gs_p250_cybershell"
 			],
 			"paintkit_rarities": [
 				2,
@@ -18018,7 +18077,8 @@
 				4,
 				3,
 				3,
-				3
+				3,
+				4
 			]
 		},
 		"38": {
@@ -18104,7 +18164,8 @@
 				"cu_sg553_reactor",
 				"cu_sg553_darkwing",
 				"gs_sg553_rusty",
-				"aa_ruins_green"
+				"aa_ruins_green",
+				"gs_sg553_deathmetal"
 			],
 			"paintkit_rarities": [
 				3,
@@ -18134,7 +18195,8 @@
 				5,
 				4,
 				3,
-				1
+				1,
+				3
 			]
 		},
 		"40": {
@@ -18287,7 +18349,8 @@
 				"cu_usp_flashback",
 				"cu_usp_krokos",
 				"am_intelligence_magenta",
-				"sp_ancient_bright"
+				"sp_ancient_bright",
+				"gs_usps_hangedman"
 			],
 			"paintkit_rarities": [
 				2,
@@ -18316,7 +18379,8 @@
 				4,
 				5,
 				5,
-				4
+				4,
+				6
 			]
 		},
 		"63": {
@@ -18348,7 +18412,8 @@
 				"cu_cz75_eco",
 				"am_crystallized_green",
 				"cu_cz75_cerakote",
-				"gs_cz75_vendetta"
+				"gs_cz75_vendetta",
+				"cu_cz75_whirlwind"
 			],
 			"paintkit_rarities": [
 				3,
@@ -18376,6 +18441,7 @@
 				5,
 				4,
 				4,
+				3,
 				3,
 				3,
 				3
@@ -18397,7 +18463,8 @@
 				"sp_spray_water",
 				"gs_r8_memento",
 				"gs_r8_leviathan",
-				"am_phoenix_tags_blue"
+				"am_phoenix_tags_blue",
+				"gs_r8_rustking"
 			],
 			"paintkit_rarities": [
 				3,
@@ -18414,7 +18481,8 @@
 				1,
 				3,
 				3,
-				2
+				2,
+				3
 			]
 		},
 		"500": {
@@ -19773,6 +19841,10 @@
 		1067,
 		1068,
 		1069,
+		1070,
+		1071,
+		1072,
+		1073,
 		1316,
 		1317,
 		1318,
@@ -20085,6 +20157,10 @@
 		"1067": "Apollo Map Coin",
 		"1068": "Guard Map Coin",
 		"1069": "Elysion Map Coin",
+		"1070": "Grind Map Coin",
+		"1071": "Mocha Map Coin",
+		"1072": "Calavera Map Coin",
+		"1073": "Pitstop Map Coin",
 		"1316": "Operation Vanguard Challenge Coin",
 		"1317": "Silver Operation Vanguard Coin",
 		"1318": "Gold Operation Vanguard Coin",
